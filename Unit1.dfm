@@ -1,10 +1,14 @@
 object Form1: TForm1
   Left = 192
   Top = 125
-  Width = 562
-  Height = 443
-  Caption = 'Kolko_krzyzyk'
-  Color = clHighlight
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsToolWindow
+  Caption = 'KolkoKrzyzyk'
+  ClientHeight = 394
+  ClientWidth = 562
+  Color = clAqua
+  UseDockManager = True
+  DockSite = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,117 +21,117 @@ object Form1: TForm1
   object Pole1: TImage
     Left = 16
     Top = 8
-    Width = 110
-    Height = 110
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
     OnClick = Pole1Click
   end
   object Pole2: TImage
-    Left = 128
+    Left = 120
     Top = 8
-    Width = 110
-    Height = 110
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
     OnClick = Pole2Click
   end
   object Pole3: TImage
-    Left = 240
+    Left = 224
     Top = 8
-    Width = 110
-    Height = 110
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
     OnClick = Pole3Click
   end
-  object Pole4: TImage
-    Left = 16
-    Top = 120
-    Width = 110
-    Height = 110
-    Cursor = crHandPoint
-    Transparent = True
-    OnClick = Pole4Click
-  end
-  object Pole5: TImage
-    Left = 128
-    Top = 120
-    Width = 110
-    Height = 110
-    Cursor = crHandPoint
-    Transparent = True
-    OnClick = Pole5Click
-  end
   object Pole6: TImage
-    Left = 240
-    Top = 120
-    Width = 110
-    Height = 110
+    Left = 224
+    Top = 112
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
     OnClick = Pole6Click
   end
-  object Pole7: TImage
-    Left = 16
-    Top = 232
-    Width = 110
-    Height = 110
+  object Pole5: TImage
+    Left = 120
+    Top = 112
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
-    OnClick = Pole7Click
+    OnClick = Pole5Click
   end
-  object Pole8: TImage
-    Left = 128
-    Top = 232
-    Width = 110
-    Height = 110
+  object Pole4: TImage
+    Left = 16
+    Top = 112
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
-    OnClick = Pole8Click
+    OnClick = Pole4Click
   end
   object Pole9: TImage
-    Left = 240
-    Top = 232
-    Width = 110
-    Height = 110
+    Left = 224
+    Top = 216
+    Width = 105
+    Height = 105
     Cursor = crHandPoint
     Transparent = True
     OnClick = Pole9Click
   end
+  object Pole8: TImage
+    Left = 120
+    Top = 216
+    Width = 105
+    Height = 105
+    Cursor = crHandPoint
+    Transparent = True
+    OnClick = Pole8Click
+  end
+  object Pole7: TImage
+    Left = 16
+    Top = 216
+    Width = 105
+    Height = 105
+    Cursor = crHandPoint
+    Transparent = True
+    OnClick = Pole7Click
+  end
   object Label1: TLabel
-    Left = 392
-    Top = 16
-    Width = 109
-    Height = 18
+    Left = 368
+    Top = 24
+    Width = 143
+    Height = 29
     Caption = 'Tura Gracza'
-    Font.Charset = EASTEUROPE_CHARSET
+    Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Verdana'
+    Font.Height = -23
+    Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold]
     ParentFont = False
   end
   object Tura: TImage
-    Left = 424
-    Top = 56
+    Left = 416
+    Top = 64
     Width = 50
     Height = 50
     Transparent = True
   end
   object Button1: TButton
-    Left = 392
-    Top = 136
-    Width = 113
-    Height = 57
-    Caption = 'Od nowa'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clBlue
-    Font.Height = -19
-    Font.Name = 'Verdana'
-    Font.Style = [fsBold]
+    Left = 360
+    Top = 200
+    Width = 153
+    Height = 65
+    Caption = 'Nowa Gra'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
     ParentFont = False
     TabOrder = 0
-    OnClick = FormCreate
+    OnClick = Button1Click
   end
 end
